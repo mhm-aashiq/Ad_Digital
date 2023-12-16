@@ -1,0 +1,178 @@
+.navbar{
+    background-color: #6B3CC9;
+    height:77px;
+    width: 100%;
+    
+}
+
+.navbar-brand{
+    width: 238.89px;
+    padding-right: 10px ;
+
+
+    }
+    .navbar-toggler{
+        width: auto;
+        border: #6B3CC9 1px solid;
+ 
+    }
+    .navbar-toggler:focus{
+       
+        border: #6B3CC9 1px solid;
+ 
+    }
+    .navbar-toggler:visited{
+       
+        border: #6B3CC9 1px solid;
+ 
+    }
+    .navbar-toggler:hover{
+       
+        border: #6B3CC9 1px solid;
+ 
+    }
+    .toggle{
+        padding-right:'20px'
+    }
+    .navbar-toggler-icon{
+        /* background-color: white; */
+        /* background: white; */
+        color: white;
+    }
+    .Logo{
+    width: 46.74px;
+    height: 36.11px;
+    top: -11.11px;
+    
+    }
+
+.LogoA{
+    width: 25.92px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 60.37px;
+    margin-left: 12px;
+    margin-top: 12px;
+ 
+    
+}
+.LogoA:nth-last-child(2){
+    
+    width: 25.91px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 195.71px;
+    
+    margin-left:1px;
+    margin-top: 12px;
+ 
+    
+}
+.LogoT{
+   
+    width: 18.6px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 84.13px;
+    margin-left: 0.18px;
+    margin-top: 12px;
+    
+}
+.LogoT:nth-last-child(3){
+   
+    width: 18.62px;
+    height: 24.51px;
+    top: 0.01px;
+    left:179.23px;
+    margin-left:2px;
+    margin-top: 12px;
+    
+}
+.LogoD{
+    width: 21.77px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 113.01px;
+    margin-left: 10px;
+    
+    margin-top: 12px;
+ 
+    
+}
+.LogoI{
+    
+    width: 6px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 138.64px;
+    
+    margin-left:4.28px;
+    margin-top: 12px;
+}
+.LogoI2{
+    
+    width: 6px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 138.64px;
+    
+    margin-left:4.28px;
+    margin-top: 12px;
+}
+
+.LogoG{
+    width: 20.4px;
+    height: 24.51px;
+    top: -0.17px;
+    left: 147.46px;
+    margin-top: 12px;
+    margin-left:2px;
+    
+}
+.LogoL{
+    width: 14.27px;
+height: 24.51px;
+top: 0.01px;
+left: 224.61px;
+
+    margin-top: 12px;
+    margin-left: 2px;
+    
+}
+
+.ms-auto{
+    width: 450px;
+height: 17px;
+gap: 28px;
+padding: 0 10px 30px 0;
+
+}
+.nav-item .nav-link{
+
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+@media screen and (max-width: 375px) {
+    .navbar-toggler{
+        width: '16px';
+         height: '24px';
+          border-radius: '5px';
+        }
+        .navbar-brand{
+            width: 238.89px;
+            padding-right: 10px;
+        
+        
+            }
+            .navbar{
+                background-color: #6B3CC9;
+                height:77px;
+                width: 375px;
+            }
+            
+}
+

@@ -1,0 +1,170 @@
+.Hero{
+    width: 1440px;
+    height: 763px;
+    top: -40px;
+    }
+
+
+.text{
+    width: 556px;
+    height: 192px;
+    padding:0px 0px 90px 40px;
+
+}
+.btn{
+    width: 214px;
+    height: 38px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 4px;
+    gap: 8px;
+    background: #F28D35;
+    margin-left: 40px;
+
+
+}
+
+
+.text-start p{
+    
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:769px) {
+    .image-container .img {
+      
+        max-width: 100%;
+        height: 763px;
+        top: -63px;
+
+    }
+  }
+
+@media screen and (max-width: 768px)  {
+    .image-container .img {
+      
+        width: 768px;
+        height: 239px;
+        top: -21px;
+        
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .image-container .img {
+        max-width: fit-content;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;   
+        height: 218px;
+        top: 77px;
+
+        
+        
+    }
+  }
+
+
+@media screen and (max-width: 1200px) and (min-width:769px) {
+    .overlay-text {
+      
+    width: 622px;
+    height: 306px;
+    top: 100px;
+    left: 60px;
+    padding: 24px, 40px, 32px, 40px;
+    gap: 20px;
+
+        
+    }
+  }
+
+  @media screen and (max-width: 768px)  {
+    .image-container .overlay-text {
+        
+        width: 100%;
+        height: 288px;
+        top: 240px;
+        padding: 24px, 40px, 32px, 40px;
+        gap: 20px;
+        left: 0px;
+        
+    }
+    .overlay-text .btn{
+      margin-left: 40px;
+    } 
+    .overlay-text .text{
+      width: 688px;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .image-container .overlay-text {
+        width: 375px;
+        height: 294px;
+        top: 219px;
+        padding: 24px, 20px, 32px, 20px;
+        gap: 20px;
+       
+        
+        
+        
+    }
+    .overlay-text .text{
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      width: 335px;
+      height: 180px;
+      
+
+    }
+
+    .btn{
+      width: 214px;
+      height: 38px;
+      padding: 12px, 20px, 12px, 20px;
+      border-radius: 4px;
+      gap: 8px;
+
+  }
+
+  }
+
+ 
+  .image-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    display: block;
+  
+    
+    height: 763px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    width: 630px;
+    height:  290px;
+    top: 345px;
+    left: 80px;
+    padding: 24px, 40px, 32px, 40px;
+    color: white;
+    gap: 20px;
+    padding-top: 24px;
+    }
